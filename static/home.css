@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "JetBrains Mono", "Arial";
+}
+
+body {
+    background-color: #252424;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+    color: rgb(49, 26, 250);
+}
+
+h2 {
+    color: white;
+}
+
+.footer {
+    margin-top: 13%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+li {
+    padding-top: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo {
+    width: 60%;
+    margin: 0 auto;
+}
+
+li:hover {
+    color: rgb(6, 13, 214);
+}
+
+.container-header a:hover {
+    color: rgb(17, 17, 195);
+}
+
+.container-header {
+    height: 75px;
+}
+
+.header {
+    width: 40%;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+    transition: 0.6s ease-in;
+}
+
+.header:hover {
+    background-color: rgb(97, 100, 100);
+    box-shadow: 0 0 10px rgb(32, 22, 209);
+    width: 40%;
+    height: 100%;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.conteudo p {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    padding: 13px;
+    text-align: center;
+    margin: 0 45%;
+    border-radius: 5px;
+    border-color: transparent;
+    transition: 0.7s ease-in-out;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(252, 252, 252);
+}
