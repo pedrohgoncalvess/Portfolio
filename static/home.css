@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "JetBrains Mono", "Arial";
+  font-family: "Fira Code", "Arial";
 }
 
 body {
@@ -48,11 +48,11 @@ li {
 }
 
 li:hover {
-  color: rgb(4, 6, 59);
+  color: rgb(255, 255, 255);
 }
 
 .container-header a:hover {
-  color: rgb(4, 6, 59);
+  color: rgb(251, 251, 251);
 }
 
 .container-header {
@@ -71,7 +71,7 @@ li:hover {
 
 .header:hover {
   background-color: rgb(97, 100, 100);
-  box-shadow: 0 0 10px rgb(32, 22, 209);
+  box-shadow: 0 0 10px rgb(84, 83, 86);
   width: 40%;
   height: 100%;
 }
