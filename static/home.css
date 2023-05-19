@@ -5,22 +5,17 @@
 }
 
 body {
-  background-color: #cccaca;
+  background-color: #b1afaf;
 }
 
 h1 {
   text-align: center;
-  padding-top: 50px;
-  display: block;
+  padding-top: 3%;
   color: rgb(7, 7, 7);
 }
 
 h2 {
-  color: rgb(80, 79, 79);
-}
-
-.footer {
-  margin-top: 7%;
+  color: rgb(59, 58, 58);
 }
 
 nav a {
@@ -31,18 +26,41 @@ nav a {
   color: rgb(7, 7, 7);
 }
 
+.header {
+  margin-top: 7%;
+}
+
+.header i {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.header li {
+  display: inline-block;
+}
+
+.header a {
+  font-size: 17px;
+  padding-left: 5px;
+}
+
+.header {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.conteudo {
+  text-align: center;
+}
+
 nav a:hover {
-  color: blue;
+  color: rgb(255, 255, 255);
+  transition: 0.35s;
 }
 
 nav {
   text-align: center;
-}
-
-li {
-  padding-top: 10px;
-  font-size: 30px;
-  color: rgb(16, 64, 87);
 }
 
 .conteudo {
@@ -54,26 +72,8 @@ li {
   color: rgb(22, 34, 134);
 }
 
-.container-header a {
-  color: rgb(7, 7, 7);
-}
-
 .container-header {
-  height: 75px;
-}
-
-.header {
-  width: 40%;
-  margin: 0 auto;
-  padding-top: 10px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  overflow: hidden;
-  transition: 0.6s ease-in;
-}
-
-.conteudo {
-  text-align: center;
+  height: 40%;
 }
 
 .conteudo p {
@@ -82,12 +82,14 @@ li {
   color: rgb(7, 7, 7);
 }
 
-.button {
-  padding: 13px;
-  text-align: center;
-  margin: 0 45%;
-  border-radius: 5px;
-  border-color: transparent;
-  transition: 0.7s ease-in-out;
-  color: white;
+.footer {
+  margin-top: 7%;
+}
+
+.footer li {
+  display: inline-block;
+}
+
+.footer a {
+  font-size: 17px;
 }
